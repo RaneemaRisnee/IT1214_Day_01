@@ -1,0 +1,103 @@
+Microsoft Windows [Version 10.0.22631.5039]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\2021ict128>cd C:\Users\2021ict128\Desktop\IT1214\S1
+
+C:\Users\2021ict128\Desktop\IT1214\S1>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 96E8-8CF4
+
+ Directory of C:\Users\2021ict128\Desktop\IT1214\S1
+
+14/03/2025  11:47    <DIR>          .
+14/03/2025  11:44    <DIR>          ..
+14/03/2025  11:48               333 Args.java
+14/03/2025  11:43               581 MyFirstClass.class
+14/03/2025  11:42               409 MyFirstJavaProgramRisnee.java
+               3 File(s)          1,323 bytes
+               2 Dir(s)  249,274,286,080 bytes free
+
+C:\Users\2021ict128\Desktop\IT1214\S1>javac Args.java
+
+C:\Users\2021ict128\Desktop\IT1214\S1>java MyFirstClass
+this is the first argument
+This is the second argument
+
+C:\Users\2021ict128\Desktop\IT1214\S1>javac Args.java
+
+C:\Users\2021ict128\Desktop\IT1214\S1>java MyFirstClass
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+        at MyFirstClass.main(Args.java:11)
+
+C:\Users\2021ict128\Desktop\IT1214\S1>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 96E8-8CF4
+
+ Directory of C:\Users\2021ict128\Desktop\IT1214\S1
+
+14/03/2025  11:47    <DIR>          .
+14/03/2025  11:44    <DIR>          ..
+14/03/2025  11:51               351 Args.java
+14/03/2025  11:51               946 MyFirstClass.class
+14/03/2025  11:42               409 MyFirstJavaProgramRisnee.java
+               3 File(s)          1,706 bytes
+               2 Dir(s)  249,269,645,312 bytes free
+
+C:\Users\2021ict128\Desktop\IT1214\S1>javac Args.java
+
+C:\Users\2021ict128\Desktop\IT1214\S1>java MyFirstClass
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+        at MyFirstClass.main(Args.java:11)
+
+C:\Users\2021ict128\Desktop\IT1214\S1>javac Args.java
+
+C:\Users\2021ict128\Desktop\IT1214\S1>java Risnee
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+        at Risnee.main(Args.java:11)
+
+C:\Users\2021ict128\Desktop\IT1214\S1>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 96E8-8CF4
+
+ Directory of C:\Users\2021ict128\Desktop\IT1214\S1
+
+14/03/2025  11:54    <DIR>          .
+14/03/2025  11:44    <DIR>          ..
+14/03/2025  11:56               352 Args.java
+14/03/2025  11:52               946 MyFirstClass.class
+14/03/2025  11:42               409 MyFirstJavaProgramRisnee.java
+14/03/2025  11:54               940 Risnee.class
+               4 File(s)          2,647 bytes
+               2 Dir(s)  249,223,471,104 bytes free
+
+C:\Users\2021ict128\Desktop\IT1214\S1>javac Args.java
+
+C:\Users\2021ict128\Desktop\IT1214\S1>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 96E8-8CF4
+
+ Directory of C:\Users\2021ict128\Desktop\IT1214\S1
+
+14/03/2025  11:56    <DIR>          .
+14/03/2025  11:44    <DIR>          ..
+14/03/2025  11:56               352 Args.java
+14/03/2025  11:52               946 MyFirstClass.class
+14/03/2025  11:42               409 MyFirstJavaProgramRisnee.java
+14/03/2025  11:56               947 MySecondClass.class
+14/03/2025  11:54               940 Risnee.class
+               5 File(s)          3,594 bytes
+               2 Dir(s)  249,208,811,520 bytes free
+
+C:\Users\2021ict128\Desktop\IT1214\S1>javac MySecondClass
+error: Class names, 'MySecondClass', are only accepted if annotation processing is explicitly requested
+1 error
+
+C:\Users\2021ict128\Desktop\IT1214\S1>java MySecondClass
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+        at MySecondClass.main(Args.java:11)
+
+C:\Users\2021ict128\Desktop\IT1214\S1>java MySecondClass hi risnee
+this is the first argumenthi
+This is the second argumentrisnee
+
+C:\Users\2021ict128\Desktop\IT1214\S1>

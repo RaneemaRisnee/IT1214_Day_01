@@ -1,0 +1,85 @@
+Microsoft Windows [Version 10.0.22631.5039]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\2021ict128>cd C:\Users\2021ict128\Desktop\IT1214
+
+C:\Users\2021ict128\Desktop\IT1214>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 96E8-8CF4
+
+ Directory of C:\Users\2021ict128\Desktop\IT1214
+
+14/03/2025  11:27    <DIR>          .
+14/03/2025  10:41    <DIR>          ..
+14/03/2025  11:29             7,750 cmd.txt
+14/03/2025  11:15    <DIR>          myfile
+14/03/2025  11:13    <DIR>          S1
+14/03/2025  11:22    <DIR>          testfolder
+               1 File(s)          7,750 bytes
+               5 Dir(s)  249,285,615,616 bytes free
+
+C:\Users\2021ict128\Desktop\IT1214>cd S1
+
+C:\Users\2021ict128\Desktop\IT1214\S1>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 96E8-8CF4
+
+ Directory of C:\Users\2021ict128\Desktop\IT1214\S1
+
+14/03/2025  11:13    <DIR>          .
+14/03/2025  11:27    <DIR>          ..
+14/03/2025  11:20               365 MyFirstJavaProgramRisnee.java
+               1 File(s)            365 bytes
+               2 Dir(s)  249,285,136,384 bytes free
+
+C:\Users\2021ict128\Desktop\IT1214\S1>javac MyFirstJavaProgramRisnee.java
+MyFirstJavaProgramRisnee.java:9: error: <identifier> expected
+        public stattic void main(String[] arg){
+                      ^
+1 error
+
+C:\Users\2021ict128\Desktop\IT1214\S1>javac MyFirstJavaProgramRisnee.java
+
+C:\Users\2021ict128\Desktop\IT1214\S1>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 96E8-8CF4
+
+ Directory of C:\Users\2021ict128\Desktop\IT1214\S1
+
+14/03/2025  11:40    <DIR>          .
+14/03/2025  11:27    <DIR>          ..
+14/03/2025  11:40               545 MyFirstClass.class
+14/03/2025  11:40               364 MyFirstJavaProgramRisnee.java
+               2 File(s)            909 bytes
+               2 Dir(s)  249,285,160,960 bytes free
+
+C:\Users\2021ict128\Desktop\IT1214\S1>java MyFirstClass.class
+Error: Could not find or load main class MyFirstClass.class
+Caused by: java.lang.ClassNotFoundException: MyFirstClass.class
+
+C:\Users\2021ict128\Desktop\IT1214\S1>java MyFirstClass
+HiThis is IT1214 Praccticl Session 1this prints in a new Line
+
+C:\Users\2021ict128\Desktop\IT1214\S1>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 96E8-8CF4
+
+ Directory of C:\Users\2021ict128\Desktop\IT1214\S1
+
+14/03/2025  11:40    <DIR>          .
+14/03/2025  11:42    <DIR>          ..
+14/03/2025  11:40               545 MyFirstClass.class
+14/03/2025  11:42               409 MyFirstJavaProgramRisnee.java
+               2 File(s)            954 bytes
+               2 Dir(s)  249,283,813,376 bytes free
+
+C:\Users\2021ict128\Desktop\IT1214\S1>java MyFirstClass
+HiThis is IT1214 Praccticl Session 1this prints in a new Line
+
+C:\Users\2021ict128\Desktop\IT1214\S1>javac MyFirstJavaProgramRisnee.java
+
+C:\Users\2021ict128\Desktop\IT1214\S1>java MyFirstClass
+HiThis is IT1214 Praccticl Session 1this prints in a new Line
+This is a new Line
+
+C:\Users\2021ict128\Desktop\IT1214\S1>

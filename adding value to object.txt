@@ -1,0 +1,94 @@
+class One{
+	int a = 10; // variable definition
+	int b;		// variable declaration
+	
+	void printDetails(){ // method
+		System.out.println("From class One a = " + a);
+		System.out.println("From class One b = " + b);
+
+		
+	}
+	
+}
+
+class Two{
+	int a,c;
+
+	void printDetails(){
+		System.out.println("From class Two a = " + a);
+		System.out.println("From class Two c = " + c);
+	}
+
+}
+
+class App{
+
+	public static void main(String[] args){
+	
+	//instance for class one 
+		One o1 = new One();
+	//instance for class Two 	
+		Two t1 = new Two();
+		
+		o1.printDetails();
+		o1.b = 100;
+		o1.printDetails();
+		t1.printDetails();
+		t1.a = 20;
+		t1.c = 30;
+		o1.printDetails();
+		t1.printDetails();
+	}
+
+}
+
+========================================================
+
+Microsoft Windows [Version 10.0.22631.5039]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\2021ict128>cd C:\Users\2021ict128\Desktop\IT1214\S1
+
+C:\Users\2021ict128\Desktop\IT1214\S1>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 96E8-8CF4
+
+ Directory of C:\Users\2021ict128\Desktop\IT1214\S1
+
+14/03/2025  12:14    <DIR>          .
+14/03/2025  11:59    <DIR>          ..
+14/03/2025  12:09               387 Args.java
+14/03/2025  11:52               946 MyFirstClass.class
+14/03/2025  11:42               409 MyFirstJavaProgramRisnee.java
+14/03/2025  12:09               949 MySecondClass.class
+14/03/2025  12:25               617 p3.java
+14/03/2025  11:54               940 Risnee.class
+               6 File(s)          4,248 bytes
+               2 Dir(s)  249,184,366,592 bytes free
+
+C:\Users\2021ict128\Desktop\IT1214\S1>java p3.java
+error: can't find main(String[]) method in class: One
+
+C:\Users\2021ict128\Desktop\IT1214\S1>javac p3.java
+
+C:\Users\2021ict128\Desktop\IT1214\S1>java App
+From class One a = 10
+From class One b = 0
+From class Two a = 0
+From class Two c = 0
+
+C:\Users\2021ict128\Desktop\IT1214\S1>javac p3.java
+
+C:\Users\2021ict128\Desktop\IT1214\S1>java App
+From class One a = 10
+From class One b = 0
+From class One a = 10
+From class One b = 100
+From class Two a = 0
+From class Two c = 0
+From class One a = 10
+From class One b = 100
+From class Two a = 20
+From class Two c = 30
+
+C:\Users\2021ict128\Desktop\IT1214\S1>

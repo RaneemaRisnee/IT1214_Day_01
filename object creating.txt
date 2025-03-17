@@ -1,0 +1,38 @@
+class One{
+	int a = 10; // variable definition
+	int b;		// variable declaration
+	
+	void printDetails(){ // method
+		System.out.println("From class One a = " + a);
+		System.out.println("From class One b = " + b);
+
+		
+	}
+	
+}
+
+class Two{
+	int a,c;
+
+	void printDetails(){
+		System.out.println("From class Two a = " + a);
+		System.out.println("From class Two c = " + c);
+	}
+
+}
+
+class App{
+
+	public static void main(String[] args){
+	
+	//instance for class one 
+		One o1 = new One();
+	//instance for class Two 	
+		Two t1 = new Two();
+		
+		o1.printDetails();
+		t1.printDetails();
+		
+	}
+
+}

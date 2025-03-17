@@ -1,0 +1,143 @@
+Microsoft Windows [Version 10.0.22631.5039]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\2021ict128\Desktop\IT1214>javac
+Usage: javac <options> <source files>
+where possible options include:
+  @<filename>                  Read options and filenames from file
+  -Akey[=value]                Options to pass to annotation processors
+  --add-modules <module>(,<module>)*
+        Root modules to resolve in addition to the initial modules, or all modules
+        on the module path if <module> is ALL-MODULE-PATH.
+  --boot-class-path <path>, -bootclasspath <path>
+        Override location of bootstrap class files
+  --class-path <path>, -classpath <path>, -cp <path>
+        Specify where to find user class files and annotation processors
+  -d <directory>               Specify where to place generated class files
+  -deprecation
+        Output source locations where deprecated APIs are used
+  --enable-preview
+        Enable preview language features. To be used in conjunction with either -source or --release.
+  -encoding <encoding>         Specify character encoding used by source files
+  -endorseddirs <dirs>         Override location of endorsed standards path
+  -extdirs <dirs>              Override location of installed extensions
+  -g                           Generate all debugging info
+  -g:{lines,vars,source}       Generate only some debugging info
+  -g:none                      Generate no debugging info
+  -h <directory>
+        Specify where to place generated native header files
+  --help, -help, -?            Print this help message
+  --help-extra, -X             Print help on extra options
+  -implicit:{none,class}
+        Specify whether or not to generate class files for implicitly referenced files
+  -J<flag>                     Pass <flag> directly to the runtime system
+  --limit-modules <module>(,<module>)*
+        Limit the universe of observable modules
+  --module <module-name>, -m <module-name>
+        Compile only the specified module, check timestamps
+  --module-path <path>, -p <path>
+        Specify where to find application modules
+  --module-source-path <module-source-path>
+        Specify where to find input source files for multiple modules
+  --module-version <version>
+        Specify version of modules that are being compiled
+  -nowarn                      Generate no warnings
+  -parameters
+        Generate metadata for reflection on method parameters
+  -proc:{none,only}
+        Control whether annotation processing and/or compilation is done.
+  -processor <class1>[,<class2>,<class3>...]
+        Names of the annotation processors to run; bypasses default discovery process
+  --processor-module-path <path>
+        Specify a module path where to find annotation processors
+  --processor-path <path>, -processorpath <path>
+        Specify where to find annotation processors
+  -profile <profile>
+        Check that API used is available in the specified profile
+  --release <release>
+        Compile for a specific VM version. Supported targets: 6, 7, 8, 9, 10, 11
+  -s <directory>               Specify where to place generated source files
+  -source <release>
+        Provide source compatibility with specified release
+  --source-path <path>, -sourcepath <path>
+        Specify where to find input source files
+  --system <jdk>|none          Override location of system modules
+  -target <release>            Generate class files for specific VM version
+  --upgrade-module-path <path>
+        Override location of upgradeable modules
+  -verbose                     Output messages about what the compiler is doing
+  --version, -version          Version information
+  -Werror                      Terminate compilation if warnings occur
+
+
+C:\Users\2021ict128\Desktop\IT1214>javac --version
+javac 11.0.12
+
+C:\Users\2021ict128\Desktop\IT1214>javac java
+error: Class names, 'java', are only accepted if annotation processing is explicitly requested
+1 error
+
+C:\Users\2021ict128\Desktop\IT1214>path
+PATH=C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\Program Files\MPICH2\bin;C:\Program Files\Python313\Scripts\;C:\Program Files\Python313\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\PuTTY\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\MPICH2\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\MATLAB\R2024a\runtime\win64;C:\Program Files\MATLAB\R2024a\bin;C:\Program Files\swipl\bin;C:\Users\2021ict128\AppData\Local\Microsoft\WindowsApps;
+
+C:\Users\2021ict128\Desktop\IT1214>test
+'test' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\2021ict128\Desktop\IT1214>path
+PATH=C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\Program Files\MPICH2\bin;C:\Program Files\Python313\Scripts\;C:\Program Files\Python313\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\PuTTY\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\MPICH2\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\MATLAB\R2024a\runtime\win64;C:\Program Files\MATLAB\R2024a\bin;C:\Program Files\swipl\bin;C:\Users\2021ict128\AppData\Local\Microsoft\WindowsApps;
+
+C:\Users\2021ict128\Desktop\IT1214>path=C:\Users\2021ict128\Desktop\IT1214\myfile
+
+C:\Users\2021ict128\Desktop\IT1214>test
+hi
+ "i have created a folder"
+
+C:\Users\2021ict128\Desktop\IT1214>mkdir
+The syntax of the command is incorrect.
+
+C:\Users\2021ict128\Desktop\IT1214>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 96E8-8CF4
+
+ Directory of C:\Users\2021ict128\Desktop\IT1214
+
+14/03/2025  11:22    <DIR>          .
+14/03/2025  10:41    <DIR>          ..
+14/03/2025  11:15    <DIR>          myfile
+14/03/2025  11:13    <DIR>          S1
+14/03/2025  11:22    <DIR>          testfolder
+               0 File(s)              0 bytes
+               5 Dir(s)  249,299,468,288 bytes free
+
+C:\Users\2021ict128\Desktop\IT1214>cd testfolder
+
+C:\Users\2021ict128\Desktop\IT1214\testfolder>cd S1
+The system cannot find the path specified.
+
+C:\Users\2021ict128\Desktop\IT1214\testfolder>cd ..
+
+C:\Users\2021ict128\Desktop\IT1214>cd S1
+
+C:\Users\2021ict128\Desktop\IT1214\S1>MyfirstJavaProgremRisnee.java
+'MyfirstJavaProgremRisnee.java' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\2021ict128\Desktop\IT1214\S1>MyfirstJavaProgramRisnee.java
+
+C:\Users\2021ict128\Desktop\IT1214\S1>
+[main 2025-03-14T05:55:29.462Z] update#setState idle
+(node:12504) [DEP0168] DeprecationWarning: Uncaught N-API callback exception detected, please run node with option --force-node-api-uncaught-exceptions-policy=true to handle those exceptions properly.
+(Use `Code --trace-deprecation ...` to show where the warning was created)
+[main 2025-03-14T05:55:33.169Z] Extension host with pid 11752 exited with code: 0, signal: unknown.
+color f0
+
+C:\Users\2021ict128\Desktop\IT1214\S1>color 0f
+
+C:\Users\2021ict128\Desktop\IT1214\S1>f0
+'f0' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\2021ict128\Desktop\IT1214\S1>color f0
+
+C:\Users\2021ict128\Desktop\IT1214\S1>color 0f
