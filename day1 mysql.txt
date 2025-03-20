@@ -1,0 +1,141 @@
+ mysql -u root -p
+ enter 2 times to enter inside the mysql
+ 
+ ctrl + ctrl
+ to exit the mysql
+ 
+ select version();
++-----------------+
+| version()       |
++-----------------+
+| 10.4.32-MariaDB |
++-----------------+
+
+select version(),current_date;
++-----------------+--------------+
+| version()       | current_date |
++-----------------+--------------+
+| 10.4.32-MariaDB | 2025-03-12   |
++-----------------+--------------+
+
+ select version(),current_date;
++-----------------+--------------+
+| version()       | current_date |
++-----------------+--------------+
+| 10.4.32-MariaDB | 2025-03-12   |
++-----------------+--------------+
+
+select version(),current_date,current_time;
++-----------------+--------------+--------------+
+| version()       | current_date | current_time |
++-----------------+--------------+--------------+
+| 10.4.32-MariaDB | 2025-03-12   | 10:58:00     |
++-----------------+--------------+--------------+
+
+select (4+1)*5;
++---------+
+| (4+1)*5 |
++---------+
+|      25 |
++---------+
+
+ select (4+1)*5, (20-10)/5;
++---------+-----------+
+| (4+1)*5 | (20-10)/5 |
++---------+-----------+
+|      25 |    2.0000 |
++---------+-----------+
+
+select now();
++---------------------+
+| now()               |
++---------------------+
+| 2025-03-12 11:22:59 |
++---------------------+
+
+ select version(),now();
++-----------------+---------------------+
+| version()       | now()               |
++-----------------+---------------------+
+| 10.4.32-MariaDB | 2025-03-12 11:24:02 |
++-----------------+---------------------+
+
+select version();select now();
++-----------------+
+| version()       |
++-----------------+
+| 10.4.32-MariaDB |
++-----------------+
+1 row in set (0.001 sec)
+
++---------------------+
+| now()               |
++---------------------+
+| 2025-03-12 11:40:57 |
++---------------------+
+1 row in set (0.000 sec)
+
+select version();select now();show databases;
++-----------------+
+| version()       |
++-----------------+
+| 10.4.32-MariaDB |
++-----------------+
+1 row in set (0.000 sec)
+
++---------------------+
+| now()               |
++---------------------+
+| 2025-03-12 11:49:47 |
++---------------------+
+1 row in set (0.000 sec)
+
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mysql              |
+| performance_schema |
+| phpmyadmin         |
+| test               |
++--------------------+
+5 rows in set (0.001 sec)
+
+\c
+to terminate the query
+
+show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mysql              |
+| performance_schema |
+| phpmyadmin         |
+| test               |
++--------------------+
+
+create database IT1223;
+show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| it1223             |
+| mysql              |
+| performance_schema |
+| phpmyadmin         |
+| test               |
++--------------------+
+
+drop database IT1223;
+show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mysql              |
+| performance_schema |
+| phpmyadmin         |
+| test               |
++--------------------+
