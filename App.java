@@ -1,26 +1,27 @@
-//import p1.MyClass;
-import p1.*;
-//import p1.p3.Class4;
-import p1.p3.*;
+import a.*;
+import b.*;
 
-//import p2.Class2;
-//import p2.Class3;
-import p2.*;
-
-// always package name should be the name of the folder
 class App{
-	public static void main(String [] ar){
-		MyClass mc = new MyClass();
-		mc.display();
+	public static void main (String [] args){
+		a.Test t1 = new a.Test();
+		b.Test t2 = new b.Test();
 		
-		Class2 c2 = new Class2();
-		c2.display();
+		//t1.print();
+		t2.print();
 		
-		Class3 c3 = new Class3();
-		c3.display();
+		//Expected output when both test classes from a and  b pakages are public
+		/* 
+			Hi from class Test in Package a
+			Hi from class Test in Package b
+		*/
 		
-		Class4 c4 = new Class4();
-		c4.display();
+		// if classes from imported packages are not public, then it won't work in main class
 		
-	} 
+		t1.display();
+		//Expected output 
+		/* 
+			Hi from class Test in Package b
+		*/
+	}
+
 }
